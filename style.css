@@ -65,7 +65,7 @@ li a {
 
 .main-menu {
     display: flex;
-    margin-left: 33%;
+    justify-content: center;
     margin-top: 1.5%;
 }
 
