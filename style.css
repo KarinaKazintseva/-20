@@ -17,7 +17,8 @@ header {
     height: 100%;
     margin: 0 auto;
     background-color: rgb(0, 0, 0);
-    padding: 2.5% 10% 2% 10%;
+    /* padding: 2.5% 10% 2% 10%; */
+    padding: 2em 10em 2em 10em;
 }
 
 a {
@@ -43,7 +44,7 @@ p a {
 }
 
 #dyadya {
-    margin-left: 55%;
+    margin-left: 40em;
 }
 
 h1 {
@@ -59,13 +60,13 @@ li a {
     color: rgb(218, 215, 212);
     font-size: 1.3em;
     font-family: fantasy;
-    margin: 15%;
+    margin: 1.2em;
 }
 
 .main-menu {
     display: flex;
     justify-content: center;
-    margin-top: 1.5%;
+    margin-top: 1.75em;
 }
 
 
