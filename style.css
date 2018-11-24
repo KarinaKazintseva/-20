@@ -391,3 +391,15 @@ i {
     font-family: fantasy;
     font-size: 2em;
 }
+
+input {
+    display: flex;
+}
+
+#modal {
+    margin-left: 45%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    font-family: fantasy;
+    font-size: 2vh;
+}
