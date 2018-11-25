@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <title>DYADYA VALERA</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
 </head>
 
 <body>
@@ -34,44 +36,50 @@
             <li> <a href="about.html"> ABOUT </a> </li>
             <li> <a href="product.html"> PRODUCTS </a> </li>
             <li> <a href="new.html"> NEW! </a> </li>
-            <li> <a href="contacts.html"> CONTACTS </a> </li>
+            <li> <a href="contacts.html"> ORDER </a> </li>
         </ul>
     </header>
     <!-- хедер закончился!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
     <section id="main-body">
         <div id="modal">
             <div class="form">
-                <div class="text">
-                    First name:
-                    <input type="text" placeholder="">
+                <div id="comm">
+                    <p> <label for="subject">Your comment:</label></p>
+                    <p> <textarea id="subject" name="subject" placeholder="Write something..." style="height:170px"></textarea> </p>
                 </div>
                 <div class="name">
+                    First name:
+                    <input type="text" style="myinput" placeholder="">
+
+                </div>
+                <div class="lname">
                     Last name:
-                    <input type="text" placeholder="">
+                    <input type="text" style="myinput" placeholder="">
                 </div>
 
-                <div class="lname">
+                <div class="email">
                     E-mail:
-                    <input type="text" placeholder="">
+                    <input type="text" style="myinput" placeholder="">
                 </div>
                 <div class="mobile">
                     Mobile:
-                    <input type="text" placeholder="">
+                    <input id="telefon " type="text" style="myinput" placeholder="">
                 </div>
 
                 <div class="amount">
                     Amount:
-                    <input type="number" placeholder="" max="20" min="1">
+                    <input type="number" style="myinput" placeholder="" max="20" min="1">
                 </div>
                 <div class="city">
                     City:
-                    <input type="text" placeholder="">
+                    <input type="text" style="myinput" placeholder="">
                 </div>
-                <div class="mobile">
+                <div class="post">
                     Post Office:
-                    <input type="text" placeholder="">
+                    <input type="text" style="myinput" placeholder="">
                 </div>
-                <input type="submit" value="Submit">
+                <div id="sab"> <input type="submit" value="Submit" style="width: 200px; height: 30px;"> </div>
+
 
                 <!-- <div class="column">
 

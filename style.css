@@ -392,14 +392,38 @@ i {
     font-size: 2em;
 }
 
-input {
-    display: flex;
+@media screen and (max-width: 2560px) and (min-width:1500px) {
+    input {
+        display: block;
+        position: relative;
+    }
+    #modal {
+        margin-left: 25%;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+        font-family: fantasy;
+        font-size: 2.75vh;
+    }
+    #comm {
+        display: flex;
+        position: absolute;
+        margin-left: 20%;
+    }
+    #sab {
+        margin-left: 25%;
+    }
 }
 
-#modal {
-    margin-left: 45%;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
-    font-family: fantasy;
-    font-size: 2vh;
+@media screen and (max-width: 1500px) and (min-width:320px) {
+    input {
+        display: block;
+        position: relative;
+    }
+    #modal {
+        margin-left: 25%;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+        font-family: fantasy;
+        font-size: 2.75vh;
+    }
 }
