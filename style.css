@@ -414,13 +414,41 @@ i {
     }
 }
 
-@media screen and (max-width: 1500px) and (min-width:320px) {
+@media screen and (max-width: 375px) and (min-width:320px) {
     input {
         display: block;
         position: relative;
     }
     #modal {
         margin-left: 25%;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+        font-family: fantasy;
+        font-size: 2.75vh;
+    }
+}
+
+@media screen and (max-width: 425px) and (min-width:375px) {
+    input {
+        display: block;
+        position: relative;
+    }
+    #modal {
+        margin-left: 35%;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+        font-family: fantasy;
+        font-size: 2.75vh;
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-width:425px) {
+    input {
+        display: block;
+        position: relative;
+    }
+    #modal {
+        margin-left: 40%;
         margin-top: 1.5%;
         margin-bottom: 1.5%;
         font-family: fantasy;
