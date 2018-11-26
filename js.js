@@ -1,7 +1,7 @@
 function mOver(obj) {
-    obj.innerHTML = "ffffffffffffffffffffffffffffff"
+    obj.innerHTML = "лУЧШИЙ!!! P.S ЭТО МАЛЕНЬКАЯ ТАЙНА"
 }
 
 function mOut(obj) {
-    obj.innerHTML = ""
+    obj.innerHTML = "DYADYA VALERA SHOP"
 }

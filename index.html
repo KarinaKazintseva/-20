@@ -16,6 +16,7 @@
 
 <body>
 
+
     <header>
         <div id="links">
             <p> <a href="https://www.instagram.com/dyadyavalera.shop/" target="_blank">Instagram</a></p>
@@ -37,6 +38,11 @@
             <li> <a href="contacts.html"> ORDER </a> </li>
         </ul>
     </header>
+    <div id="see">
+        <a href="#pictures"> <img src="1.png" height="30vh"> </a>
+
+
+    </div>
     <!-- хедер закончился!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
     <section id="main-body">
         <div id="pictures">
@@ -64,7 +70,24 @@
 
         </div>
     </footer>
-    <?php include 'fuctions.php';?>
+
+
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#see").on("click", "a", function(event) {
+                event.preventDefault();
+                var id = $(this).attr('href'),
+                    top = $(id).offset().top;
+                $('body,html').animate({
+                    scrollTop: top
+                }, 1500);
+            });
+        });
+    </script>
+
 </body>
 
 </html>

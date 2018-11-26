@@ -22,9 +22,10 @@
             <p> <a href="https://www.instagram.com/dyadyavalera.shop/" target="_blank">Instagram</a></p>
             <p> <a href="https://t.me/murmurKka" target="_blank">Telegram</a></p>
             <div id="dyadya">
-                <p>
-                    <h1>DYADYA VALERA SHOP</h1>
-                </p>
+                <div onmouseover="mOver(this)" onmouseout="mOut(this)">
+                    <h1> DYADYA VALERA SHOP </h>
+                </div>
+
             </div>
         </div>
         <div id="logo">
@@ -125,6 +126,15 @@
         </div>
     </footer>
     <!-- футер закончился!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-    <script src="js.js"></script>
-    < /body>
-        < /html>
+    <script>
+        function mOver(obj) {
+            obj.innerHTML = "ЛУЧШИЙ P.S ТОЛЬКО ТСС"
+        }
+
+        function mOut(obj) {
+            obj.innerHTML = ""
+        }
+    </script>
+</body>
+
+</html>
